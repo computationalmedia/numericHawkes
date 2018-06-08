@@ -29,9 +29,9 @@ import numpy as np
 ### Define a Hawkes process
 The baseline and triggering kernel are defined by tick.base.TimeFunction. Both functions are defined piecewise (discrete). 
 
-For example, a power function on ![](https://latex.codecogs.com/gif.latex?%5B0%2C%5Cpi%5D) can be realized as
+For example, a power function on ![](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cdpi%7B100%7D%20%5Cfn_cm%20%5B0%2C%5Cpi%5D) can be realized as
 
-\{ f(x) = \dfrac{0.21}{(x+0.05)^1.1} \}
+![](https://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20f%28x%29%20%3D%20%5Cdfrac%7B0.21%7D%7B%28x&plus;0.05%29%5E%7B1.1%7D%7D)
 
 ```python
 ts = np.append([0],np.logspace(-5,np.log10(np.pi),256))
