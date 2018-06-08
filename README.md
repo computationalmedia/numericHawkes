@@ -13,7 +13,7 @@ This repository contains:
   - python3
   - numpy
   - scipy
-  - tick (https://github.com/X-DataInitiative/tick)
+  - [tick](https://github.com/X-DataInitiative/tick)
 
 ## Tutorial:
 
@@ -29,7 +29,7 @@ import numpy as np
 ### Define a Hawkes process
 The baseline and triggering kernel are defined by tick.base.TimeFunction. Both functions are defined piecewise (discrete). 
 
-For example, a power function on $[0, \pi]$ can be realized as
+For example, a power function on ![](https://latex.codecogs.com/gif.latex?%5B0%2C%5Cpi%5D) can be realized as
 
 \{ f(x) = \dfrac{0.21}{(x+0.05)^1.1} \}
 
